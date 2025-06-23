@@ -23,7 +23,7 @@ To push:
 Usr : <USR>
 Pssd: <PSSD>
 
-> git commit -m "Updates to test.R."
+> git commit -m "Updates to project."
 Usr : <USR>
 Pssd: <PSSD>
 
