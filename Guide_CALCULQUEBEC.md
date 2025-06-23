@@ -2,9 +2,9 @@
 
 ### To setup:
 
-1. Use sponser number (receive number by existing member [given in 2024 04 15 J&C meeting]) to create account
+1. Use sponser number (receive number by existing member) to create account
 2. Receive approval
-3. Sign-in and create usr [akravchu] and pssd
+3. Sign-in and create usr and pssd
 
 *Now that TFA is required, you must also do the following*
 
