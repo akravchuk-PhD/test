@@ -37,7 +37,7 @@ Once signed in, navigate servers via command line (see: https://www.codecademy.c
 $ cd projects/def-jgnes/<USR>
 ```
 
-### Installing packages
+### Installing packages:
 
 We want to set a module in which we will be working (as in, the versions of various programs we will be using). In order to explore modules, we can use:
 
