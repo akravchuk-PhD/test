@@ -13,18 +13,42 @@
 3. *Navigate to* **My Account** *>* **Multifactor Authentication Management**
 4. *Register your phone/tablet through a QR code*
 
+### To access the servers:
+
+Open terminal/command line and type in somehting similar to the following:
+
+```
+> ssh -Y <USR>>@<MACHINE>
+Pssd: <PSSD>
+Duo two-factor login for akravchu
+
+Enter a passcode or select one of the following options:
+
+ 1. Duo Push to <DEVICE>
+
+Passcode or option (1-1): 
+```
+
+where `<USR>` is your username like `akravchu`, and `<MACHINE>` is something like `cedar.alliancecan.ca`. For more information on different machines, look at the links at the bottom of the guide. Use the Duo Mobile App to do the 2 Factor Authentication. 
+
+Once signed in, navigate servers via command line (see: https://www.codecademy.com/learn/learn-the-command-line/modules/learn-the-command-line-navigation/cheatsheet). It is best to navigate to this directory to set up a github repository:
+
+```
+$ cd projects/def-jgnes/<USR>
+```
+
 ### Installing packages
 
 We want to set a module in which we will be working (as in, the versions of various programs we will be using). In order to explore modules, we can use:
 
 ```
-[akravchu@cedar1]$ module spider
+$ module spider
 ```
 
 We want to use the latest version of R available to us (4.4.0), so we find that:
 
 ```
-[akravchu@cedar1]$ module spider r/4.4.0
+$ module spider r/4.4.0
 
 --------------------------------------------------------------------------------------------------------------
   r: r/4.4.0
@@ -100,8 +124,24 @@ HOWEVER for some packages of R, we will need the program gsl, which means we nee
 which means we will ultimately need to load before every job:
 
 ```
-[akravchu@cedar1]$ module load StdEnv/2023 gcc/12.3 gsl/2.7 r/4.4.0
+$ module load StdEnv/2023 gcc/12.3 gsl/2.7 r/4.4.0
 ```
+
+### Running jobs:
+
+Once you have a file, let's say named `test.R` that you want to run, then create a `job.sh` file and run it using the command line:
+
+```
+$ sbatch job.sh
+```
+
+and check the progress of the job using 
+
+```
+$ sq
+```
+
+See `job.sh` for an example file running `test.R ` within R version 4.4.0.
 
 ### Useful links:
 

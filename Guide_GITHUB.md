@@ -1,6 +1,6 @@
 # GitHub Guide
 
-### For personal access:
+### For command line navigation:
 
 To obtain the repository on your machine:
 
@@ -39,3 +39,5 @@ To pull:
 Usr : <USR>
 Pssd: <PSSD>
 ```
+
+For a friendly user interface on your local machine, see Visual Studio Code: https://code.visualstudio.com/

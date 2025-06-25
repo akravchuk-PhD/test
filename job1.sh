@@ -5,5 +5,3 @@
 #SBATCH --mail-type=ALL
 module load StdEnv/2023 gcc/12.3 gsl/2.7 r/4.4.0
 Rscript test.R 
-
-
