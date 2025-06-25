@@ -20,7 +20,7 @@ Open terminal/command line and type in somehting similar to the following:
 ```
 > ssh -Y <USR>>@<MACHINE>
 Pssd: <PSSD>
-Duo two-factor login for akravchu
+Duo two-factor login for <USR>
 
 Enter a passcode or select one of the following options:
 
@@ -85,7 +85,7 @@ module load StdEnv/2023 r/4.4.0
 HOWEVER for some packages of R, we will need the program gsl, which means we need to explore the modules for this program:
 
 ```
-[akravchu@cedar1]$ module spider gsl/2.7
+$ module spider gsl/2.7
 
 --------------------------------------------------------------------------------------------------------------
   gsl: gsl/2.7
@@ -129,13 +129,13 @@ $ module load StdEnv/2023 gcc/12.3 gsl/2.7 r/4.4.0
 
 ### Running jobs:
 
-Once you have a file, let's say named `test.R` that you want to run, then create a `job.sh` file and run it using the command line:
+Once you have a file, let's say named `test.R` that you want to run, create a `job.sh` file and run it using the command line:
 
 ```
 $ sbatch job.sh
 ```
 
-and check the progress of the job using 
+and check the progress of the job using:
 
 ```
 $ sq
