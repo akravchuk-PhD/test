@@ -1,4 +1,4 @@
-# Calcul Quebec Guide
+# Compute Canada Guide
 
 ### To setup:
 
