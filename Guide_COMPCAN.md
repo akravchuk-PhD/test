@@ -6,7 +6,7 @@
 2. Receive approval
 3. Sign-in and create usr and pssd
 
-*Now that TFA is required, you must also do the following*
+*Now that TFA is required, you must also do the following:*
 
 1. *Sign in to your online account using usr and pssd*
 2. *Download the Duo Mobile App on your phone/tablet*
