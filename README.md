@@ -4,4 +4,4 @@
 
 ***Guide_GITHUB.md*** contains all instructions on how to work with github. 
 
-***job.sh*** Example `.sh` file to use to run jobs. 
+***job.sh*** example `.sh` file to use to run jobs. 
